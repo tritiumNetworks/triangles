@@ -13,6 +13,6 @@ setInterval(() => {
       })
     })
   })
-}, 1000)
+}, 100)
 
 module.exports = () => { return style }

@@ -3,4 +3,4 @@
 .add({ duration: 130, easing: 'easeOutQuart', targets: '.logo-ac-accent', color: '#ffffff' }, 1000)
 .add({ easing: 'easeOutElastic', targets: '.logo-ac-text', fontSize: '70px' }, 800)
 .add({ easing: 'easeOutExpo', targets: '.logo-spliter', height: '100%' })
-.add({ duration: 300, targets: '.branding', opacity: 0 })
+.add({ duration: 1000, targets: '.branding', opacity: 0 }, '-=500')

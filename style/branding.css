@@ -5,7 +5,7 @@
   font-family: 'Jua', sans-serif;
   padding: 200px 30px 10px;
   font-size: 100px;
-  z-index: 10;
+  z-index: 20;
 }
 
 .coloredBg {
@@ -38,7 +38,7 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  z-index: 50;
+  z-index: 25;
 
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
