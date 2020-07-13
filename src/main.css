@@ -1,0 +1,32 @@
+#insts {
+  display: none;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+#chat {
+  transition: all .3s ease;
+  caret-color: #4285F4;
+  box-shadow: 0 0.3rem 1rem rgba(0,0,0,.15);
+}
+
+#chat:hover {
+  box-shadow: 0 0.3rem 1rem rgba(0,0,0,.05);
+}
+
+#chat:focus {
+  outline-color: #6bedd4;
+}
+
+#chat::placeholder {
+  transition: all .3s ease;
+}
+
+#chat:focus::placeholder {
+  color: transparent;
+}
+
+#render {
+  word-break: break-all;
+  height: 80vh !important;
+}
